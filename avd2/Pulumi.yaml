@@ -1,0 +1,10 @@
+name: noteworthy-magnetite-kiwi
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: Rewrite this program in Python
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: https://www.pulumi.com/ai/api/project/975f5823-f012-463a-9bbe-208f0ca29e8c.zip
