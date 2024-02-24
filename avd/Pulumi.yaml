@@ -1,0 +1,10 @@
+name: noteworthy-ytterbium-colugo
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: azure virtual desktop
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: https://www.pulumi.com/ai/api/project/7905633c-8177-4199-86c3-54e72c35a8d0.zip
